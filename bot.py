@@ -13,7 +13,7 @@ apiid = config("APP_ID", cast = int)
 apihash = config("API_HASH")
 bottoken = config("BOT_TOKEN")
 frm = config("FROM_CHANNEL", cast = int)
-2frm = connfig("FROM_CHANNEL2"
+2frm = connfig("FROM_CHANNEL2",cast = int)
 tochnl = config("TO_CHANNEL", cast = int)
 tochnl2 = config("TO_CHANNEL2",cast = int)
 datgbot = TelegramClient('bot', apiid, apihash).start(bot_token = bottoken)
